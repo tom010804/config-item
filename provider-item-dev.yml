@@ -17,10 +17,7 @@ spring:
   data:
     mongodb:
       uri: mongodb://192.168.1.29:27017/tom
-eureka:
-  client:
-    service-url:
-      defaultZone: http://localhost:8080/eureka
+
 mybatis:
   mapper-locations: classpath:mapper/*.xml
   configuration:
