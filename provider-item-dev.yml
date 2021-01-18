@@ -7,8 +7,8 @@ spring:
   redis:
     host: 192.168.1.29
     port: 6379
-  session:
-    store-type: redis
+  #session:
+    #store-type: redis
   datasource:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://192.168.1.29:3306/item?characterEncoding=utf-8&useSSL=false&serverTimezone=UTC
